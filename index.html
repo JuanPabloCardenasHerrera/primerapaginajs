@@ -2,12 +2,20 @@
   <body>
     <h1>Bienvenido a ingenieria de software</h1>
 	<form id="greetings_form">
-		<label for="input_name">Tu nombre: </label>
+		<label for="input_name">Nombre: </label>
 		<div>
 			<input type="text" id="input_name"/>	
 		</div>
+		<label for="input_age">Edad: </label>
 		<div>
 			<input type="number" id="input_age"/>		
+		</div>
+		<label for="sex">Sexo: </label>
+		<div>
+		<select id="sex">
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+		</select>
 		</div>
 		<input type="submit" value="Saludar"/>
 	</form>
